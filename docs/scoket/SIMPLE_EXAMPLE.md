@@ -1,3 +1,14 @@
+---
+title: socket简单案例实现
+date: 2020-08-03
+sidebar: false
+categories:
+ - 服务端
+tags:
+ - 网络编程
+ - socket
+---
+
 # socket简单案例实现
 
 终于还是吃了自己的狗粮......
