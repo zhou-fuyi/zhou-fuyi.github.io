@@ -10,7 +10,7 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'Home', link: '/', icon: 'reco-home' },
-            { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+            { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' },
             { text: 'Github', link: 'https://github.com/thread-zhou' },
         ],
         // 自动形成侧边导航
