@@ -244,7 +244,7 @@ public class SocketClient {   
 
 ###### 客户端A套接字启动
 
-![客户端A套接字启动客户端.png](/geektime-learning/socket/客户端A套接字启动-客户端-.png)
+![客户端A套接字启动客户端.png](/geektime-learning/socket/客户端A套接字启动-客户端.png)
 
 ![客户端A套接字启动服务端.png](/geektime-learning/socket/客户端A套接字启动-服务端.png)
 
