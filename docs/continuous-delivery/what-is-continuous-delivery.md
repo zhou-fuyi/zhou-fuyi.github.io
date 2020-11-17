@@ -1,5 +1,5 @@
 ---
-title: 持续交付是什么，和DevOps有什么关系
+title: 持续交付（一）—— 持续交付是什么，和DevOps有什么关系
 date: 2020-11-09
 sidebar: true
 categories:
