@@ -50,7 +50,7 @@ module.exports = {
         // string | boolean  最后更新时间
         lastUpdated: 'Last Updated', 
         // 作者
-        author: 'zhoujian',
+        author: '拂衣',
         // 备案号
         record: '浙ICP备20000064号',
         // 项目开始时间，只填写年份
