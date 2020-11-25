@@ -1,13 +1,13 @@
 ---
-title: JVM -- 基础入门
+title: Jvm -- 基础入门
 date: 2020-11-10
 sidebar: false
 categories:
  - 服务端
- - JVM
+ - Jvm
  - Java
 tags:
- - JVM
+ - Jvm
  - Java
 ---
 
