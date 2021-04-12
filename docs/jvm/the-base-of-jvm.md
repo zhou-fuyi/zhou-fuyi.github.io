@@ -286,7 +286,7 @@ iload_2 和 dstore 4 都是栈操作字节码，只不过后者是在槽位大�
 - float
 - double
 
-而在 Java 语言中，存在8大基本数据类型：byte（8bit）、short（16bit）、char（16bit）、boolean（8bit）、int（32bit）、long（64bit）、float（32bit）、double（32bit）。但是在字节码处理中，像 boolean、byte 都是使用 int 进行表示。也就是说，在字节码处理中，int 是最小单位，小于 32bit 的数值皆使用 int 表示。（所以这里也存在存储占用的情况，比如 byte 只需要1字节，却使用了4字节进行存储）
+而在 Java 语言中，存在8大基本数据类型：byte（8bit）、short（16bit）、char（16bit）、boolean（8bit）、int（32bit）、long（64bit）、float（32bit）、double（64bit）。但是在字节码处理中，像 boolean、byte 都是使用 int 进行表示。也就是说，在字节码处理中，int 是最小单位，小于 32bit 的数值皆使用 int 表示。（所以这里也存在存储占用的情况，比如 byte 只需要1字节，却使用了4字节进行存储）
 
 关于算术运算和类型转换操作，在将源码编译成字节码的过程中就已经完成了将相应的操作转换为对应的字节码指令，这样在具体执行的时候已经无关数据类型是什么了。（就不再需要每一次执行都计算前后类型是什么了，执行效率更高）
 
