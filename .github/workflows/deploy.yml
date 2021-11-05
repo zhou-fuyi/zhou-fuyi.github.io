@@ -27,8 +27,8 @@ jobs:
       run: yarn build
       env:
         CI: true
-    - run: ls -ll .
-    - run: ls -ll /home/runner/work/thread-zhou.github.io/thread-zhou.github.io/
+      
+    - run: ls -ll docs/.vuepress/
     
     - name: Deploy to Aliyun
       uses: easingthemes/ssh-deploy@v2.0.7
@@ -38,7 +38,7 @@ jobs:
         # For any initial/required rsync flags
         ARGS: "-rltgoDzvO --delete"
         # Source directory dist/ 源目录，编译后生成的文件目录
-        SOURCE: "dist/"
+        SOURCE: "docs/.vuepress/dist/"
         # Remote host **填入自己的域名**
         REMOTE_HOST: "116.62.218.223"
         # Remote user **填入自己的用户,一般都是root用户**
