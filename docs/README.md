@@ -1,17 +1,21 @@
 ---
 home: true
 heroText: 边见众生，边见自己
-tagline: 十步杀一人，千里不留行
-# heroImage: /logo.png
+tagline: 夫轻诺必寡信，多易必多难！
+# bgImage: '/bg.png'
+# bgImageStyle: {
+#   height: '350px'
+# }
 heroImageStyle: {
-  maxWidth: '600px',
+  maxHeight: '200px',
   width: '100%',
   display: block,
-  margin: '9rem auto 2rem',
-  background: '#fff',
-  borderRadius: '1rem',
+  margin: '6rem auto 1.5rem',
+  # background: '#fff',
+  borderRadius: '50%',
+  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
-isShowTitleInHome: true
+# isShowTitleInHome: true
 # actionText: About Me
 # actionLink: /zh/guide/
 # features:

@@ -1,8 +1,8 @@
 {
-  "name": "thread-zhou.github.io",
+  "name": "zhoujian.site",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "zhoujian",
+  "author": "fuyi",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
