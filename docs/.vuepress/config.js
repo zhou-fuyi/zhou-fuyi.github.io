@@ -1,6 +1,6 @@
 module.exports = {
-  title: '拂衣',
-  description: '十步杀一人，千里不留行',
+  title: '边见众生，边见自己',
+  description: '夫轻诺必寡信，多易必多难！',
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
