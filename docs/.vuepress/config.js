@@ -42,6 +42,7 @@ module.exports = {
     author: 'fuyi',
     // 备案号
     record: '浙ICP备20000064号',
+    recordLink: 'https://beian.miit.gov.cn/',
     // 项目开始时间，只填写年份
     startYear: '2020',
     // 友链

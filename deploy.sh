@@ -1,5 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
+echo "deploy..."
 # 确保脚本抛出遇到的错误
 set -env
 
