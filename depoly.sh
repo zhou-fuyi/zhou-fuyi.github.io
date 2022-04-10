@@ -1,8 +1,9 @@
 #!/bin/bash
 
-echo "deploy..."
+echo "Depoly to Github Pages..."
+
 # 确保脚本抛出遇到的错误
-set -env
+set -e
 
 # 生成静态文件
 yarn build
@@ -17,3 +18,4 @@ git commit -m 'deploy'
 git push -f git@github.com:zhou-fuyi/zhou-fuyi.github.io.git master:gh-pages
 
 cd -
+rm -rf docs/.vuepress/dist
