@@ -15,7 +15,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "拂衣录",
+      title: "拂衣记",
       description: '夫轻诺必寡信，多易必多难！',
     }
   },
