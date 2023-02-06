@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 拂衣记
+heroText: 拂衣志
 tagline: 如果你想要拥有从未有过的东西，那就去做你从未做过的事。
 # actionText: 立刻进入 →
 # actionLink: /web/
